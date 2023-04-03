@@ -1,0 +1,36 @@
+* { 
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}    
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+}
+
+.box {
+    background-color: rgb(176, 190, 202);
+    margin-top: 10px;
+    padding-top: 10px;
+   
+}
+
+.notas-style {
+    margin-right: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    padding: 5px;
+}
+
+#Boton {
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(8, 76, 135);
+    border-color: rgb(10, 10, 80);
+}
