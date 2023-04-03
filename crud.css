@@ -28,9 +28,43 @@ section {
     padding: 5px;
 }
 
-#Boton {
+#Boton1 {
     padding: 5px;
     margin: 5px;
     background-color: rgb(8, 76, 135);
     border-color: rgb(10, 10, 80);
+}
+
+.form-titulo {
+    margin-right: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+.form-label {
+    margin-right: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+#lista { 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Boton2 {
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(231, 43, 43);
+    border-color: rgb(164, 13, 28);
+}
+
+#Boton3 {
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(7, 128, 27);
+    border-color: rgb(7, 78, 22);
 }
