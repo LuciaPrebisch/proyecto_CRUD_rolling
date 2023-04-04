@@ -12,17 +12,20 @@
 </head>
 <body>
      <!-- PARTE UNO  -->
-    <form class="box" width="150px">
+   
+    <form class="box d-flex mx-5 text-green my-5" >
         <div class="mb-3" id="Notas">
-        <label for="NotasForm" class="notas-style"> MIS NOTAS </label>
-        <input type="text" class="form-control" id="Notas2" aria-describedby="">
+        <label for="NotasForm" class="notas-style"> MIS NOTAS - Lucia Prebisch </label>
+        <input type="search" placeholder="Notas" class="form-control me-5" id="Notas2" aria-label="search">
               
-            <button type="submit" class="btn btn-primary" id="Boton1">Crear nota</button>
+            <button type="button" class="btn btn-primary" id="Boton1">Crear nota</button>
     </form>
+    
     <!-- PARTE DOS -->
     <br>
     <br>
     <br>
+    
     <form class="box2" width="150px">
         <div class="mb-3">
           <label for="titulo1" class="form-titulo">Titulo</label>
@@ -40,8 +43,8 @@
               </select>
         </div>
           
-        <div> <button type="submit" class="btn btn-primary" id="Boton2">Cancelar</button> </div>
-        <div> <button type="submit" class="boton3 btn btn-primary" id="Boton3">Enviar</button> </div>
+        <div> <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"    class="btn btn-primary" id="Boton2">Cancelar</button> </div>
+        <div> <button type="button" class="boton3 btn btn-primary" id="Boton3">Enviar</button> </div>
         
     </form>
 
